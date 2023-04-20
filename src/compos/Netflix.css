@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    color: white;
+    
+}
+.main {
+    background-color: black;
+}
+.cards {
+    margin-bottom: 0;
+}
+.card {
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    margin-bottom: 0;
+   padding:20px;
+   padding-bottom: 10px;
+  
+}
+.cards h3 {
+    margin:0;
+}
+.card::-webkit-scrollbar{
+    overflow: hidden;
+}
+.pic{
+    object-fit: contain;
+    max-height:100px;
+    width:100%;
+    transition: transform 150ms;
+    margin-right:10px;
+    background-color: aliceblue;
+    margin-left:0px;
+   
+}
+.largeclass {
+    object-fit: contain;
+    max-height:250px;
+    width:100%;
+    transition: transform 150ms;
+    margin-right:10px;
+
+}
+.card img:hover {
+    transform: scale(1.08);
+}
+.titlebar {
+    padding-left:20px;
+}
+.banner {
+    object-fit: contain;
+    height:448px;
+    color:white;
+}
+.info {
+    margin-left:30px;
+    padding-top: 140px;
+    height:190px;
+}
+.bantitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 0.3rem;
+}
+.ban_info {
+    width:40rem;
+    max-width: 360px;
+    padding-top: 1.3rem;
+    height:80px;
+}
+.btn button{
+    border:none;
+    padding:5px;
+    background-color: rgb(51, 51, 51,0.5);
+    margin-right:10px;
+    color: white;
+    padding:5px 20px;
+    border-radius: 3px;
+}
+.btn button:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.2s;
+}
+.shadow {
+    height:7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+}
+.logo {
+    position: fixed;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+    padding:10px;
+    transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_logo{
+    width:100px;
+    object-fit: contain;
+}
+.nav_avatar {
+    width:30px;  
+   position: fixed;
+   right:20px;
+}
+.nav_black {
+    background-color:black;
+    z-index: 6;
+}
+
+
